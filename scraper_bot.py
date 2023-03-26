@@ -8,11 +8,7 @@ import pandas as pd
 import csv
 import os
 import time
-!pip install htmldate
 from htmldate import find_date
-
-from google.colab import drive
-drive.mount('/content/drive/')
 
 token = 'your token'
 chat_id = 'your chat it'
